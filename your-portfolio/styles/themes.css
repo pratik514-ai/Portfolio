@@ -1,0 +1,67 @@
+.light-theme {
+    --neon-blue: #0066cc;
+    --neon-purple: #6600cc;
+    --dark-bg: #f0f0f5;
+    --glass: rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+.dark-theme #particle-canvas {
+    background: linear-gradient(to bottom right, #0a0a16, #000000);
+}
+
+.light-theme #particle-canvas {
+    background: linear-gradient(to bottom right, #f0f0f5, #ffffff);
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+/* Light Theme Navigation */
+.light-theme .cyber-nav {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 102, 204, 0.2);
+    box-shadow: 0 0 15px rgba(0, 102, 204, 0.1);
+}
+
+.light-theme .nav-item {
+    color: #0066cc;
+}
+
+.light-theme .nav-item::before {
+    background: #6600cc;
+}
+
+.light-theme .nav-item.active {
+    color: #6600cc;
+    text-shadow: 0 0 10px rgba(102, 0, 204, 0.5);
+}
+
+.light-theme .theme-toggle {
+    background: rgba(102, 0, 204, 0.1);
+}
+
+.light-theme .theme-toggle:hover {
+    background: rgba(102, 0, 204, 0.2);
+}
+/* Light Theme Contact Form */
+.light-theme {
+    .cyber-input, .cyber-select, .cyber-textarea {
+        background: rgba(0, 0, 0, 0.05);
+        color: #333;
+        border-color: #6600cc;
+    }
+    
+    .cyber-button {
+        background: #6600cc;
+    }
+    
+    .channel-btn {
+        background: rgba(102, 0, 204, 0.1);
+        color: #6600cc;
+    }
+    
+    .channel-btn:hover {
+        background: rgba(102, 0, 204, 0.2);
+    }
+}
